@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações:</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Informações:</h1>
+
+        <section class="card">
+            <h2>🎵 Eduardo e Mônica Custom</h2>
+            <p>Clique no botão para reescrever a história.</p>
+            <button onclick="gerarMusica()">Mudar Protagonistas</button>
+            <div id="letra-musica"></div>
+        </section>
+
+        <section class="card">
+            <h2>⚖️ Calculadora de IMC</h2>
+            <p>Dica: Mantenha uma dieta equilibrada e beba água!</p>
+            <input type="number" id="peso" placeholder="Peso (kg)">
+            <input type="number" id="altura" placeholder="Altura (ex: 1.75)">
+            <button onclick="calcularIMC()">Calcular IMC</button>
+        </section>
+
+        <section class="card">
+            <h2>🌡️ Meteorologia Local</h2>
+            <div id="clima">
+                <p>Carregando dados da cidade...</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
